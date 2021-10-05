@@ -2,14 +2,11 @@
 This is a simple text-based visual scanning game that was created for younger students to scan on their keyboard to improve visual attention and scanning abilities.
 
 
-As of right now. The program runs in a single run using default settings for output of text and for assertion of letter by the user.
-
-
-What will be done to improve this game is to add additional rounds and user input for those rounds.
+As of right now. The program runs in a single run using default settings for output of text and for assertion of letter by the user and will prompt users for the number of rounds they wish to participate in.
 
 After that, a possible scoring will be implemented.
 
-Last, from there, there should be some assertion and testing put in place for more than one letter and perhaps even assertions of inputs.
+Last, from there, there should be some assertion and testing put in place for more than one letter and perhaps even assertions of inputs. That way, we can print multiple letters for testing.
 
 For now, this is simply a project designed for learning and perhaps one day be used in the therpay space for teachers or therapists working with individuals with cognitive or visual processing disorder difficulties.
 
