@@ -18,4 +18,6 @@ Download Python 3.x and install.
 
 Pip install requirements.txt command (pip install -r requirements.txt)
 
-run funtion.py script.
+Run function.py script.
+
+Your other option is to craete a virtual environment first, and pip install -r requirements.txt
