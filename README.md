@@ -16,6 +16,8 @@ This is not a medical tool by any means, but a therapeutic tool for practice.
 <h2>Instructions</h2>
 Download Python 3.x and install.
 
+Wget, fork, or download source files.
+
 Pip install requirements.txt command (pip install -r requirements.txt)
 
 Run function.py script.
