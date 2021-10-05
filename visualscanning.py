@@ -1,6 +1,7 @@
 from art import *
 import random
 import string
+import time
 
 def block_printer(x):
     printed_letter = text2art(x, font='block', chr_ignore=True)
@@ -17,6 +18,8 @@ def start_game():
     print(block_printer(lucky_letter))
     my_input = input("what letter just popped up? ").upper()
     if saved_letter == my_input:
+        time.sleep(0.2)
         print("WOW YOU GOT IT RIGHT!")
     else:
-        print("WRONG!")
+        time.sleep(0.2)
+        print(f"WRONG! This was the letter {saved_letter}")
