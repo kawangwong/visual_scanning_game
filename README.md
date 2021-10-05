@@ -14,6 +14,12 @@ For now, this is simply a project designed for learning and perhaps one day be u
 
 This is not a medical tool by any means, but a therapeutic tool for practice.
 
+<h3>Visual Scanning</h3>
+Visual scanning is a skill involving cognitive motoric abilities to look for objects in space. The ability itself can be recognition of a pattern, an object, of even seeking relevant visual information. In the context of this game, most health individuals should be able to recognize the ASCII art as a respective letter shape and then visually scan for it on the keyboard to identify and press with no issue.
+
+For individuals with difficulties, this isn't an assessment tool for a be all end all as more assessments will be required to make a more definitive judgement on difficulties with visual skills.
+
+Once again, This is not a medical tool by any means, but a therapeutic tool for practice.
 
 <h2>Instructions</h2>
 Download Python 3.x and install.
