@@ -11,7 +11,7 @@ Last, from there, there should be some assertion and testing put in place for mo
 
 It may also be possible to create some sort of save function for scoring in case this was used as a metric assessment or repeated assessment. That can be implemented as an optional function.
 
-For now, this is simply a project designed for learning and perhaps one day be used in the therpay space for teachers or therapists working with individuals with cognitive or visual processing disorder difficulties.
+For now, this is simply a project designed for learning and perhaps one day be used in the therapy space for teachers or therapists working with individuals with cognitive or visual processing disorder difficulties.
 
 This is not a medical tool by any means, but a therapeutic tool for practice.
 
