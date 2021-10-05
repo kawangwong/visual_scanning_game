@@ -1,6 +1,7 @@
 # visual_scanning_game
-This is a simple text-based visual scanning game that was created for younger students to scan on their keyboard to improve visual attention and scanning abilities.
+This is a simple text-based visual scanning game that was created for practice with individuals to scan on their keyboard to improve visual attention, perception and scanning abilities.
 
+The module used is art, which can be used to output ASCII art, with many different options of style and output.
 
 As of right now. The program runs in a single run using default settings for output of text and for assertion of letter by the user and will prompt users for the number of rounds they wish to participate in.
 
