@@ -13,13 +13,11 @@ def start_game():
     '''First we need a random letter generator'''
     Letters = string.ascii_uppercase
     lucky_letter = random.choice(Letters)
-    saved_letter = lucky_letter
-    '''This will put the letter in a saved variable to be compared later with user response'''
     print(block_printer(lucky_letter))
     my_input = input("what letter just popped up? ").upper()
-    if saved_letter == my_input:
+    if lucky_letter == my_input:
         time.sleep(0.2)
         print("WOW YOU GOT IT RIGHT!")
     else:
         time.sleep(0.2)
-        print(f"WRONG! This was the letter {saved_letter}")
+        print(f"WRONG! This was the letter {lucky_letter}")
