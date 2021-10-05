@@ -14,3 +14,11 @@ Last, from there, there should be some assertion and testing put in place for mo
 For now, this is simply a project designed for learning and perhaps one day be used in the therpay space for teachers or therapists working with individuals with cognitive or visual processing disorder difficulties.
 
 This is not a medical tool by any means, but a therapeutic tool for practice.
+
+
+<h2>Instructions</h2>
+Download Python 3.x and install.
+
+Pip install requirements.txt command (pip install -r requirements.txt)
+
+run funtion.py script.
