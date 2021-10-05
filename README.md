@@ -32,3 +32,4 @@ Pip install requirements.txt command (pip install -r requirements.txt)
 Run function.py script.
 
 Your other option is to craete a virtual environment first, and pip install -r requirements.txt
+![image](https://github.com/kawangwong/visual_scanning_game/blob/main/Screenshot.jpg?raw=true)
