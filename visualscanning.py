@@ -25,11 +25,6 @@ def start_game():
         print(f"WRONG! This was the letter {lucky_letter}. Do better next time!")
         return x
 
-# start_game(x)
-# print(start_game(x))
-# print(x)
 '''We need to also include code into this that would create a function that would save results
 this information could be detailed as in letters, or could be as simple as just rights and wrongs
 More detail can be used to actually create datametrics for difficulty scales.'''
-
-'''We need to create a function here to created or amend a text file with time and results'''
