@@ -4,8 +4,7 @@ This is a simple text-based visual scanning game that was created for practice w
 The module used is [art](https://pypi.org/project/art/), which is a pip module that can convert user input text into an ASCII art, with many different options of style and output.
 
 Currently, the program will prompt the user for the number of rounds they wish to participate in. It will also print out a score in the end.
-
-A work in progress as of right now is creating a text file post round for saved user data. This function will be implemented using a sys arg with a user name file check to ensure that functions will either append text or create and append. Purpose of save function for scoring in case this was used as a metric assessment or repeated assessment. That can be implemented as an optional function.
+It will also create a text file post round for saved user data. This function will be implemented using a sys arg with a user name file check to ensure that functions will either append text or create and append. Purpose of save function for scoring in case this was used as a metric assessment or repeated assessment. That can be implemented as an optional function.
 
 Last, from there, there should be some assertion and testing put in place for more than one letter and perhaps even assertions of inputs. That way, we can print multiple letters for testing.
 
