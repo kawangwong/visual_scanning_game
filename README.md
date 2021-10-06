@@ -1,17 +1,15 @@
 # visual_scanning_game
 This is a simple text-based visual scanning game that was created for practice with individuals to scan on their keyboard to improve visual attention, perception and scanning abilities.
 
-The module used is [art](https://pypi.org/project/art/), is a pip module that can convert user input text into an ASCII art, with many different options of style and output.
+The module used is [art](https://pypi.org/project/art/), which is a pip module that can convert user input text into an ASCII art, with many different options of style and output.
 
-As of right now. The program runs in a single run using default settings for output of text and for assertion of letter by the user and will prompt users for the number of rounds they wish to participate in.
+Currently, the program will prompt the user for the number of rounds they wish to participate in. It will also print out a score in the end.
 
-After that, a possible scoring will be implemented.
+A work in progress as of right now is creating a text file post round for saved user data. This function will be implemented using a sys arg with a user name file check to ensure that functions will either append text or create and append. Purpose of save function for scoring in case this was used as a metric assessment or repeated assessment. That can be implemented as an optional function.
 
 Last, from there, there should be some assertion and testing put in place for more than one letter and perhaps even assertions of inputs. That way, we can print multiple letters for testing.
 
-It may also be possible to create some sort of save function for scoring in case this was used as a metric assessment or repeated assessment. That can be implemented as an optional function.
-
-For now, this is simply a project designed for learning and perhaps one day be used in the therapy space for teachers or therapists working with individuals with cognitive or visual processing disorder difficulties.
+It may also be possible to create some sort of For now, this is simply a project designed for learning and perhaps one day be used in the therapy space for teachers or therapists working with individuals with cognitive or visual processing disorder difficulties.
 
 This is not a medical tool by any means, but a therapeutic tool for practice.
 
