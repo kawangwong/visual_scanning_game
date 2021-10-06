@@ -32,5 +32,7 @@ Optional: Create a [virtual environment](https://docs.python.org/3/library/venv.
 
 Run function.py script. with python or python3 or python3.exe or python3
 
+If you want to save results to a text file, simply add a single word after the function.py command such as "python function.py yourname"
+
 Your other option is to create a virtual environment first, and pip install -r requirements.txt
 ![image](https://github.com/kawangwong/visual_scanning_game/blob/main/Screenshot.jpg?raw=true)
