@@ -33,5 +33,5 @@ Optional: Create a [virtual environment](https://docs.python.org/3/library/venv.
 
 Run function.py script. with python or python3 or python3.exe or python3
 
-Your other option is to craete a virtual environment first, and pip install -r requirements.txt
+Your other option is to create a virtual environment first, and pip install -r requirements.txt
 ![image](https://github.com/kawangwong/visual_scanning_game/blob/main/Screenshot.jpg?raw=true)
