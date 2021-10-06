@@ -6,7 +6,7 @@ if len(argv) == 2:
     results = True
     file_name = (f"{str(argv[1])}.txt")
 else:
-    results = False
+    file_name = "results.txt"
 
 rounds = int(input("How many rounds do you want this to go for? "))
 correct_answer = 0
