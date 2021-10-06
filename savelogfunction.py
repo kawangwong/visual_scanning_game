@@ -1,7 +1,7 @@
 from sys import argv
 from os.path import exists
-
-
+from sampeldatafile import user_score, rounds, percentage_correct
+import time
 
 if len(argv) == 2:
     results = True
@@ -12,13 +12,21 @@ else:
 pass the name of the file that will be created or amended with the results of the session'''
 
 
-if exists(file_name) == True :
+
+if results == True:
+    if exists(file_name) == True :
+        f2 = open(file_name, "+w")
+        f2.close()
+        print("the file exists")
     #go to function 2 to amend file and add new lines for results
-    print("the file exists")
+    else:
+        f1 = open(file_name, "+w")
+        ()
+        print("a file doesn't exist and we just made one")
 else:
-    #go to function 1 for creating and amending
-    print("a file doesn't exist and we will make one.")
+    pass
 
 
+timestamp = time.strftime("%Y-%m-%d %H:%M:%S")
 
-print(file_name)
+print(timestamp)
