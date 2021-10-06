@@ -23,11 +23,15 @@ Once again, This is not a medical tool by any means, but a therapeutic tool for 
 <h2>Instructions</h2>
 Download Python 3.x and install.
 
-Wget, fork, or download source files.
+Wget, fork, or [download source files](https://www.alphr.com/download-files-github/).
 
-Pip install requirements.txt command (pip install -r requirements.txt)
+Pip install requirements.txt command (pip install -r requirements.txt) This will install the art module.
 
-Run function.py script.
+Check python is installed using python --version or python3 --version
+
+Optional: Create a [virtual environment](https://docs.python.org/3/library/venv.html). 
+
+Run function.py script. with python or python3 or python3.exe or python3
 
 Your other option is to craete a virtual environment first, and pip install -r requirements.txt
 ![image](https://github.com/kawangwong/visual_scanning_game/blob/main/Screenshot.jpg?raw=true)
