@@ -7,6 +7,7 @@ timestamp = time.strftime("%Y-%m-%d %H:%M:%S")
 '''Here we're using a system arguement input in the python command line to
 pass the name of the file that will be created or amended with the results of the session'''
 
+'''results and v0 to v3 are parameter place holders for use in the save_function when it gets called by functionfile.py'''
 
 def save_function(theresults, v0, v1, v2, v3):
     if theresults == True:
@@ -14,7 +15,7 @@ def save_function(theresults, v0, v1, v2, v3):
             f2 = open(v0, "a")
             f2.write(f"{timestamp} \nScore:{v1}, Rounds: {v2}, Percentage: {v3} \n")
             f2.close()
-            print("Data has been written")
+            print(f"Data has been written to {v0} ")
         #go to function 2 to amend file and add new lines for results
         else:
             f1 = open(v0, "+w")
