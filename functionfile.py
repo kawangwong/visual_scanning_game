@@ -1,7 +1,7 @@
 from visualscanning import *
 from savelogfunction import *
 from sys import argv
-from useroptions import saveoption
+from useroptions import saveoption, save_custom_list_option
 
 if len(argv) == 2:
     file_name = (f"{str(argv[1])}.txt")
@@ -31,4 +31,11 @@ if saveoption == True:
     save_function(file_name, user_score, rounds, percentage_correct)
 else:
     pass
+
+if save_custom_list_option == True:
+    save_the_list(file_name)
+else:
+    pass
+
+
 '''Calls the savelog function'''
