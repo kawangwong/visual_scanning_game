@@ -4,7 +4,7 @@ This is a simple terminal text-based visual scanning game that was created for p
 The module used is [art](https://pypi.org/project/art/), which is a pip module that can convert user input text into an ASCII art, with many different options of style and output.
 
 Currently, the program will prompt the user for the number of rounds they wish to participate in. It will also print out a score in the end.
-It will also create a text file post round for saved user data by default, which can be changed through modifying the functionfile.py file from True to False. A custom file name function can be utilized by adding a single space name after the command to run the program. Purpose of save function for scoring in case this was used as a metric assessment or repeated assessment. That can be implemented as an optional function.
+It will also create a text file post round for saved user data by default, which can be changed through modifying the functionfile.py file from True to False. A custom file name function can be utilized by adding a single space name after the command to run the program. Purpose of save function is for scoring in case this was used as a metric assessment or repeated assessment. This can be enabled or disabled.
 
 There is also a function that can be set so the user can set specific letters that they want to test the users on.
 
@@ -39,9 +39,9 @@ After you installed python and pip, run ``pip install -r requirements.txt``
 
 Run function.py script. with python or python3 or python.exe or python3.exe
 
-If you want to save results to a custom text file, simply add a single word after the function.py command such as ``python function.py yourname``, otherwise, a default one will be saved for you in results.txt. This can be disabled by changing the flag from True to false in the function python file on line.
+If you want to save results to a custom text file, simply add a single word after the function.py command such as ``python function.py yourname``, otherwise, a default one will be saved for you in results.txt. This can be disabled by changing the flag from True to false in the useroption.py file.
 
-The useroption.py file has two user features that can be set. One is the ability to use a custom list, and the other is to use all the alphabets in the list. Interesting thing about this option is that it will also take in words if you choose to add words into the list. At least that has been tested by me so far.
+The useroption.py file has two user features that can be set. One is a save option for options to save data to file. One is the ability to use a custom list, and the other is to use all the alphabets in the list. Interesting thing about this option is that it will also take in words if you choose to add words into the list. At least that has been tested by me so far.
 
 <h3>For Standalone Package use</h3>
 
