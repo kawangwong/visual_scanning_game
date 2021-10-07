@@ -41,9 +41,7 @@ If you want to save results to a custom text file, simply add a single word afte
 
 <h3>For Standalone Package Use</h3>
 A friend of mine told me that the pip module [pyinstaller](https://pypi.org/project/pyinstaller/) would be able to solve this. This program would compile the intepreted language code into one that can be almost all in one, where the program can be run as long as the folder is shared amongst like hardware systems(Same OS version and same CPU architecture). I have decided not to compile and upload a complete program, but one can be built with these instructions. The only limitation here is that the program will not create a custom result file name, instead defaulting to only the base results.txt.
-
-
-Steps
+<h4>Steps</h4>
 
 Run the command ``pip install pyinstaller``
 
