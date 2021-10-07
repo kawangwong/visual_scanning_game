@@ -5,8 +5,10 @@ from sys import argv
 if len(argv) == 2:
     results = True
     file_name = (f"{str(argv[1])}.txt")
-else:
+elif len(argv) == 1:
+    results = True ##set to false to prevent results file from being created.
     file_name = "results.txt"
+
 
 rounds = int(input("How many rounds do you want this to go for? "))
 correct_answer = 0
