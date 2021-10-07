@@ -1,7 +1,7 @@
 from visualscanning import *
 from savelogfunction import *
 from sys import argv
-from useroptions import saveoption, save_custom_list_option
+from useroptions import saveoption, save_custom_list_option, customletterflag
 
 if len(argv) == 2:
     file_name = (f"{str(argv[1])}.txt")
@@ -32,7 +32,7 @@ if saveoption == True:
 else:
     pass
 
-if save_custom_list_option == True:
+if save_custom_list_option == True and customletterflag:
     save_the_list(file_name)
 else:
     pass
