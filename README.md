@@ -11,7 +11,7 @@ This is simply a project designed for learning and perhaps one day be used in th
 This is not a medical tool by any means, but a therapeutic tool for practice.
 
 <h3>Anticipated feature</h3>
-I am looking to build this application into a package or perhaps a web app that can either be run locally or hosted on a low cost server. Currently explorying options of either doing a Flask implementation or py installer or utilizing Ajax. It's unclear as these are some of less explored areas in programming and development. For now. This will be considered V1.
+I am looking to build this application into a package or perhaps a web app that can either be run locally or hosted on a low cost server. Currently exploring options of either doing a Flask implementation or utilizing Ajax. It's unclear as these are some of less explored areas in programming and development. For now. This will be considered V1.
 Second feature will be a auto response without user return key input, to reduce lag time between question and answer as well as a way to set the program for use with specific letters only and change in font for sample output as I have noticed that the default font outrputs letter like U and V very similarly.
 
 <h3>Visual Scanning</h3>
