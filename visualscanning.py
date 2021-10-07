@@ -2,16 +2,20 @@ from art import *
 import random
 import string
 import time
+from useroptions import customletterflag, custom_letters
 
 def block_printer(x):
     printed_letter = text2art(x, font='block', chr_ignore=True)
     return printed_letter
 
+if customletterflag == False:
+    Letters = string.ascii_uppercase
+elif customletterflag == True:
+    Letters = [letter.upper() for letter in custom_letters]
 '''Function used to create and show the block letters randomly here'''
 def start_game():
     x = 0
     '''First we need a random letter generator'''
-    Letters = string.ascii_uppercase
     lucky_letter = random.choice(Letters)
     print(block_printer(lucky_letter))
     my_input = input("what letter just popped up? ").upper()
