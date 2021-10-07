@@ -22,21 +22,32 @@ For individuals with difficulties, this isn't an assessment tool for a be all en
 Once again, This is not a medical tool by any means, but a therapeutic tool for practice.
 
 <h2>Instructions</h2>
+<h3>For Terminal use</h3>
 Download Python 3.x and install.
 
 Wget, fork, or [download source files](https://www.alphr.com/download-files-github/).
 
-Pip install requirements.txt command (pip install -r requirements.txt) This will install the art module.
+Pip install requirements.txt command ``pip install -r requirements.txt`` This will install the art module.
 
-Check python is installed using python --version or python3 --version
+Check python is installed using ``python --version`` or ``python3 --version``
 
 Optional: Create a [virtual environment](https://docs.python.org/3/library/venv.html). 
 
-After you installed python and pip, run "pip install -r requirements.txt"
+After you installed python and pip, run ``pip install -r requirements.txt``
 
 Run function.py script. with python or python3 or python3.exe or python3
 
-If you want to save results to a custom text file, simply add a single word after the function.py command such as "python function.py yourname", otherwise, a default one will be saved for you in results.txt. This can be disabled by changing the flag from True to false in the function python file on line.
+If you want to save results to a custom text file, simply add a single word after the function.py command such as ``python function.py yourname``, otherwise, a default one will be saved for you in results.txt. This can be disabled by changing the flag from True to false in the function python file on line.
+
+<h3>For Standalone Package Use</h3>
+A friend of mine told me that the pip module [pyinstaller](https://pypi.org/project/pyinstaller/) would be able to solve this. This program would compile the intepreted language code into one that can be almost all in one, where the program can be run as long as the folder is shared amongst like hardware systems(Same OS version and same CPU architecture). I have decided not to compile and upload a complete program, but one can be built with these instructions. The only limitation here is that the program will not create a custom result file name, instead defaulting to only the base results.txt.
+
+Steps
+Run the command ``pip install pyinstaller``
+
+``pyinstaller functionfile.py``
+
+Two folders will be created with two sub folders. Open dist -->functionfile-->functionfile.exe or whichever file it is on a mac or Linux. I have only tested this on Windows 10. 
 
 
 ![image](https://github.com/kawangwong/visual_scanning_game/blob/main/Screenshot.jpg?raw=true)
