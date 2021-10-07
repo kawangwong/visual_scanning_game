@@ -12,7 +12,8 @@ if customletterflag == False:
     Letters = string.ascii_uppercase
 elif customletterflag == True:
     Letters = [letter.upper() for letter in custom_letters]
-'''Function used to create and show the block letters randomly here'''
+
+'''Function used to create and show the block letters randomly here or through a user generated list'''
 def start_game():
     x = 0
     '''First we need a random letter generator'''
