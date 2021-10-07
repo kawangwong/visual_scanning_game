@@ -3,8 +3,13 @@ This is a simple terminal text-based visual scanning game that was created for p
 
 The module used is [art](https://pypi.org/project/art/), which is a pip module that can convert user input text into an ASCII art, with many different options of style and output.
 
-Currently, the program will prompt the user for the number of rounds they wish to participate in. It will also print out a score in the end.
-It will also create a text file post round for saved user data by default, which can be changed through modifying the functionfile.py file from True to False. A custom file name function can be utilized by adding a single space name after the command to run the program. Purpose of save function is for scoring in case this was used as a metric assessment or repeated assessment. This can be enabled or disabled.
+
+<h4>Assessment Data Logs</h4>
+Currently, the program will prompt the user for the number of rounds they wish to participate in. It will also print out a score in the end. It can also log data.
+The can do the following:
+Enable or disable a save file.
+If enabled, make it a custom name or a name that is customized.
+Save the results of the data when used with a custom list. If it is not custom, there is no additional output on the file.txt
 
 There is also a function that can be set so the user can set specific letters that they want to test the users on.
 
