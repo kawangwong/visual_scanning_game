@@ -29,13 +29,11 @@ Download Python 3.x and install.
 
 Wget, fork, or [download source files](https://www.alphr.com/download-files-github/).
 
-Pip install requirements.txt command ``pip install -r requirements.txt`` This will install the art module.
-
 Check python is installed using ``python --version`` or ``python3 --version``
 
 Optional: Create a [virtual environment](https://docs.python.org/3/library/venv.html). 
 
-After you installed python and pip, run ``pip install -r requirements.txt``
+Pip install requirements.txt command ``pip install -r requirements.txt`` This will install the art module.
 
 Run function.py script. with python or python3 or python.exe or python3.exe
 
