@@ -6,13 +6,15 @@ The module used is [art](https://pypi.org/project/art/), which is a pip module t
 Currently, the program will prompt the user for the number of rounds they wish to participate in. It will also print out a score in the end.
 It will also create a text file post round for saved user data by default, which can be changed through modifying the functionfile.py file from True to False. A custom file name function can be utilized by adding a single space name after the command to run the program. Purpose of save function for scoring in case this was used as a metric assessment or repeated assessment. That can be implemented as an optional function.
 
+There is also a function that can be set so the user can set specific letters that they want to test the users on.
+
 This is simply a project designed for learning and perhaps one day be used in the therapy space for teachers or therapists working with individuals with cognitive or visual processing disorder difficulties.
 
 This is not a medical tool by any means, but a therapeutic tool for practice.
 
 <h3>Anticipated feature</h3>
 I am looking to build this application into a package or perhaps a web app that can either be run locally or hosted on a low cost server. Currently exploring options of either doing a Flask implementation or utilizing Ajax. It's unclear as these are some of less explored areas in programming and development. For now. This will be considered V1.
-Second feature will be a auto response without user return key input, to reduce lag time between question and answer as well as a way to set the program for use with specific letters only and change in font for sample output as I have noticed that the default font outrputs letter like U and V very similarly.
+Second feature is to change in font for sample output as I have noticed that the default font outrputs letter like U and V very similarly.
 
 <h3>Visual Scanning</h3>
 Visual scanning is a skill involving cognitive motoric abilities to look for objects in space. The ability itself can be recognition of a pattern, an object, of even seeking relevant visual information. In the context of this game, most health individuals should be able to recognize the ASCII art as a respective letter shape and then visually scan for it on the keyboard to identify and press with no issue.
@@ -38,6 +40,8 @@ After you installed python and pip, run ``pip install -r requirements.txt``
 Run function.py script. with python or python3 or python3.exe or python3
 
 If you want to save results to a custom text file, simply add a single word after the function.py command such as ``python function.py yourname``, otherwise, a default one will be saved for you in results.txt. This can be disabled by changing the flag from True to false in the function python file on line.
+
+The useroption.py file has two user features that can be set. One is the ability to use a custom list, and the other is to use all the alphabets in the list. Interesting thing about this option is that it will also take in words if you choose to add words into the list. At least that has been tested by me so far.
 
 <h3>For Standalone Package use</h3>
 
