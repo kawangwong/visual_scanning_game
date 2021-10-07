@@ -1,3 +1,5 @@
+saveoption = True
+##Set this flag to true or false to allow result saving.
 customletterflag = True
 ##Set flag here to True to use a custom letter list.
 custom_letters = ["a" ,"b" ,"c"]

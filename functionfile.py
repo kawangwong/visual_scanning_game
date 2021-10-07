@@ -1,12 +1,11 @@
 from visualscanning import *
 from savelogfunction import *
 from sys import argv
+from useroptions import saveoption
 
 if len(argv) == 2:
-    results = True
     file_name = (f"{str(argv[1])}.txt")
 elif len(argv) == 1:
-    results = True ##set to false to prevent results file from being created.
     file_name = "results.txt"
 
 
@@ -28,5 +27,8 @@ percentage_correct = user_score*100/rounds
 
 print(f"Good job!, you got {percentage_correct}% correct out of {rounds} trials. ")
 
-save_function(results, file_name, user_score, rounds, percentage_correct)
+if saveoption == True:
+    save_function(file_name, user_score, rounds, percentage_correct)
+else:
+    pass
 '''Calls the savelog function'''
