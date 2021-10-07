@@ -1,5 +1,5 @@
 # visual_scanning_game
-This is a simple temrinal text-based visual scanning game that was created for practice with individuals to scan on their keyboard to improve visual attention, perception and scanning abilities.
+This is a simple terminal text-based visual scanning game that was created for practice with individuals to scan on their keyboard to improve visual attention, perception and scanning abilities.
 
 The module used is [art](https://pypi.org/project/art/), which is a pip module that can convert user input text into an ASCII art, with many different options of style and output.
 
