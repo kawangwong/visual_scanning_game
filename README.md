@@ -37,7 +37,7 @@ Optional: Create a [virtual environment](https://docs.python.org/3/library/venv.
 
 After you installed python and pip, run ``pip install -r requirements.txt``
 
-Run function.py script. with python or python3 or python3.exe or python3
+Run function.py script. with python or python3 or python.exe or python3.exe
 
 If you want to save results to a custom text file, simply add a single word after the function.py command such as ``python function.py yourname``, otherwise, a default one will be saved for you in results.txt. This can be disabled by changing the flag from True to false in the function python file on line.
 
