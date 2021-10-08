@@ -32,7 +32,7 @@ if saveoption == True:
 else:
     pass
 
-if save_custom_list_option == True and customletterflag:
+if save_custom_list_option == True and customletterflag == True:
     save_the_list(file_name)
 else:
     pass
