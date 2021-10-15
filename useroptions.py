@@ -1,5 +1,6 @@
 saveoption = True
-##Set this flag to true or false to allow result saving. This is to save a default results.txt
+##Set this flag to true or false to allow result saving. This is to save a default results.txt. For user specific, you can add the name after typing in the
+##the program. This would be something along the lines of "python functionfile.py kawang" or python3 functionfile.py kawang"
 customletterflag = True
 ##Set flag here to True to use a custom letter list.
 custom_letters = ["a" ,"b" ,"c"]
