@@ -5,7 +5,7 @@ import time
 
 letter_list = string.ascii_lowercase
 
-rounds = **user input
+# rounds = **user input in case we want a round based instead of time based
 final_score = **final final_score
 starttime = 50
 
@@ -23,10 +23,16 @@ def new_letter():
     global final_score
     if starttime > 0:
         userinput.focus_set()
-        if userinput.
+        if userinput.get() == letter_list[1]:
+            final_score += 1
+        userinput.delete(0, tk.END)
+        random.shuffle(letter_list)
+        textdisplayed.config(text = letter_list[1])
 
 
 root = tk.Tk()
+
+userinput = tk.Entry(root)
 
 root.title("The Input Game")
 canvas = tk.Canvas(root, width=600, height = 600)
@@ -50,9 +56,8 @@ game_display_box.tag_configure("center", justify="center")
 game_display_box.tag_add("center", 1.0, "end")
 game_display_box.grid(column=1, row=3)
 
-
-
-
+textdisplayed = tk.Label(root, font = ("Raleway"))
+textdisplayed.grid(columnspan=4, column=3, row=2)
 
 
 root.mainloop()
