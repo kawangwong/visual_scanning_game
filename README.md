@@ -24,7 +24,8 @@ This is simply a project designed for learning and perhaps one day be used in th
 This is not a medical tool by any means, but a therapeutic tool for practice.
 
 <h4>Anticipated feature</h4>
-I am looking to build this to web app that can either be run locally or hosted on a low cost server. Currently exploring options of either doing a Flask implementation or utilizing Ajax. It's unclear as these are some of less explored areas in programming and development. For now. This will be considered V1.
+I am looking to build this to web app that can either be run locally or hosted on a low cost server. Currently exploring options of either doing a Flask implementation or utilizing Ajax. It's unclear as these are some of less explored areas in programming and development. For now. This will be considered V1. 
+
 Second feature is to change in [font](https://github.com/sepandhaghighi/art#font-modes) for sample output as I have noticed that the default font outrputs letter like U and V very similarly. This can be achieved by modifying the code to add user parameters that change the font, either from the function code or as a user editable setting, so less tinkering is necessary by the user.
 
 <h3>Visual Scanning</h3>
