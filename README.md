@@ -3,6 +3,7 @@ This is a simple terminal text-based visual scanning game that was created as a 
 
 The module used is [art](https://pypi.org/project/art/), which is a pip module that can convert user input text into an ASCII art, with many different options of style and output.
 
+<h3>Features</h3>
 
 <h4>Assessment Data Logs</h4>
 Currently, the program will prompt the user for the number of rounds they wish to participate in. It will also print out a score in the end. It can also log data.
@@ -11,15 +12,20 @@ Enable or disable a save file.
 If enabled, make it a custom name or a name that is customized.
 Save the results of the data when used with a custom list. If it is not custom, there is no additional output on the file.txt
 
-There is also a function that can be set so the user can set specific letters that they want to test the users on.
+<h4>Standalone packaging</h4>
+The program can be made into a standalone package, but has not been done so for this git since it would be more efficient for the end-user to create that package using [pyinstaller](https://www.pyinstaller.org/).
+
+
+<h4>Custom list</h4>
+There is a function built in to allow for custom letters or even words used.
 
 This is simply a project designed for learning and perhaps one day be used in the therapy space for teachers or therapists working with individuals with cognitive or visual processing disorder difficulties.
 
 This is not a medical tool by any means, but a therapeutic tool for practice.
 
 <h3>Anticipated feature</h3>
-I am looking to build this application into a package or perhaps a web app that can either be run locally or hosted on a low cost server. Currently exploring options of either doing a Flask implementation or utilizing Ajax. It's unclear as these are some of less explored areas in programming and development. For now. This will be considered V1.
-Second feature is to change in font for sample output as I have noticed that the default font outrputs letter like U and V very similarly.
+I am looking to build this to web app that can either be run locally or hosted on a low cost server. Currently exploring options of either doing a Flask implementation or utilizing Ajax. It's unclear as these are some of less explored areas in programming and development. For now. This will be considered V1.
+Second feature is to change in [font](https://github.com/sepandhaghighi/art#font-modes) for sample output as I have noticed that the default font outrputs letter like U and V very similarly. This can be achieved by modifying the code to add user parameters that change the font, either from the function code or as a user editable setting, so less tinkering is necessary by the user.
 
 <h3>Visual Scanning</h3>
 Visual scanning is a skill involving cognitive motoric abilities to look for objects in space. The ability itself can be recognition of a pattern, an object, of even seeking relevant visual information. In the context of this game, most health individuals should be able to recognize the ASCII art as a respective letter shape and then visually scan for it on the keyboard to identify and press with no issue.
