@@ -2,10 +2,10 @@ from art import *
 import random
 import string
 import time
-from useroptions import customletterflag, custom_letters
+from useroptions import customletterflag, custom_letters, fontSelect
 
 def block_printer(x):
-    printed_letter = text2art(x, font='block', chr_ignore=True)
+    printed_letter = text2art(x, font=fontSelect, chr_ignore=True)
     return printed_letter
 
 if customletterflag == False:
