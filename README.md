@@ -24,10 +24,14 @@ This is simply a project designed for learning and perhaps one day be used in th
 
 This is not a medical tool by any means, but a therapeutic tool for practice.
 
+<h4>Custom fonts</h4>
+
+[Fonts](https://github.com/sepandhaghighi/art#font-modes) for sample output as I have noticed that the default font outrputs letter like U and V very similarly. This can be achieved by modifying the user editable setting, so less tinkering is necessary by the user.
+
 <h4>Anticipated feature</h4>
 I am looking to build this to web app that can either be run locally or hosted on a low cost server. Currently exploring options of either doing a Flask implementation or utilizing Ajax. It's unclear as these are some of less explored areas in programming and development. For now. This will be considered V1. 
 
-Second feature is to change in [font](https://github.com/sepandhaghighi/art#font-modes) for sample output as I have noticed that the default font outrputs letter like U and V very similarly. This can be achieved by modifying the code to add user parameters that change the font, either from the function code or as a user editable setting, so less tinkering is necessary by the user.
+Second feature is to allow a randomization of fonts. This can be achieved by using a list import of user preferred fonts. I also need to set up a default if this is the case.
 
 <h3>Visual Scanning</h3>
 Visual scanning is a skill involving cognitive motoric abilities to look for objects in space. The ability itself can be recognition of a pattern, an object, of even seeking relevant visual information. In the context of this game, most health individuals should be able to recognize the ASCII art as a respective letter shape and then visually scan for it on the keyboard to identify and press with no issue.
