@@ -13,6 +13,7 @@ If enabled, make it a custom name or a name that is customized.
 Save the results of the data when used with a custom list. If it is not custom, there is no additional output on the file.txt
 
 <h4>Standalone packaging</h4>
+
 The program can be made into a standalone package, but has not been done so for this git since it would be more efficient for the end-user to create that package using [pyinstaller](https://www.pyinstaller.org/).
 
 
